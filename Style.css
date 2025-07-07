@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: lightblue;
+
+
+}
+#content-heading{
+    padding: 0px;
+    margin:0px;
+    position: fixed;
+    left: 50px;
+    top: 100px;
+    
+}
+#content-heading h1{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    opacity: 1;
+    font-size: 250%;
+    border: 3px solid black;
+    
+}
+#content-heading p{
+    display: flex;
+    min-height: 100px;
+    
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}

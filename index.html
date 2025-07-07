@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical assistant</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="content-heading">
+        <h1>A MEDICAL ASSISTANT</h1>
+        <p id="p">A medical chatbot is an AI-driven virtual assistant that helps users with health-related questions and concerns. It can interact in natural language to collect symptoms, provide basic health advice, suggest possible conditions, and direct users to the appropriate medical department or specialist. These chatbots are often used for symptom checking, appointment booking, medication reminders, and providing general health information. They improve accessibility to healthcare support, especially outside of clinic hours.</p>
+    </div>
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "5c48e661-9be3-494c-b2dd-b76503565069", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "77cbdc34-d2f6-4932-b418-155d15b237fc", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+
+</script>
+</body>
+
+</html>
