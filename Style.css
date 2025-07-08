@@ -2,11 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: lightblue;
+    background-image: url("https://content.app-sources.com/s/18447925404601697/uploads/Blog_Images/Pharmacy_Chatbot_The_Future_of_Personalised_Medicine_Assistance-2291092.jpg?format=webp");
+    background-size: cover;
 
 
 }
 #content-heading{
+    min-height: 100px;
+    width: 1000px;
     padding: 0px;
     margin:0px;
     position: fixed;
